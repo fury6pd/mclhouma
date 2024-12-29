@@ -1,0 +1,158 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-header {
+    display: flex;
+    color: #fefefe;
+    background-color: #232323;
+    font-weight: bolder;
+    padding: 20px;
+    justify-content: center;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+a:link {
+    color:#fefefe;
+}
+
+a:visited {
+    color:#004481;
+}
+
+a:hover {
+    color: #fdd500;
+}
+
+a:active {
+    color:#cc101f
+}
+
+.cover-section {
+    display: flex;
+    background-color: #fdd500;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fdd500;
+    padding: 45px;
+}
+
+.cover-photo {
+    display: flex;
+}
+
+.MCL-475-text {
+    display: flex;
+    font-size: 1.25rem;
+    font-weight: 700;
+    justify-items: center;
+}
+
+.main-content-section {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fefefe;
+    border: none;
+}
+
+.upcoming-events {
+    display: flex;
+    font-size: 1rem;
+    padding-top: 30px;
+}
+
+.our-mission {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    font-size: 1.25rem;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+
+li {
+    list-style: none;
+    }
+
+h2 {
+    font-size: larger;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 1.35rem;
+}
+
+.section-title-banner {
+    display: flex;
+    justify-content: center;
+    background-color: #cc101f;
+    color: #fefefe;
+    padding: 10px;
+}
+
+.service-card-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.service-card-panel {
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    width: 400px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+} 
+
+.service-card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #004481;
+    color: #fefefe;
+}
+
+.service-card-text {
+    display: flex;
+    padding: 25px;
+}
+
+.slide-panel {
+    display: flex;
+    justify-content: center;
+}
+
+#serviceslidecarousel {
+    display: flex;
+    width: 380px;
+    padding: 15px;
+}
+
+.footer {
+    display: flex;
+    text-wrap: wrap;
+    background-color: #232323;
+    color: #fefefe;
+    padding: 30px;
+}
+
+
